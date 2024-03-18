@@ -1,0 +1,98 @@
+.header {
+  color: #000;
+  background-color: #01a390;
+  border-radius: 5px;
+  justify-content: space-between;
+  width: auto;
+  margin: 10px;
+  font-weight: bold;
+  display: flex;
+  box-shadow: -1px 4px 20px 14px #0003;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.nav-item > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item > ul > li {
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.restaurant-list {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  display: flex;
+}
+
+.card {
+  cursor: pointer;
+  border-radius: 5px;
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: -1px 4px 20px 14px #0003;
+}
+
+.card > span {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.card > span > h4 {
+  text-align: center;
+}
+
+.card > img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  margin: 5px;
+  display: flex;
+}
+
+.res-card {
+  width: 150px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.card > span > h4:first-child {
+  color: #fff;
+  background-color: #13b001;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 5px;
+  display: flex;
+}
+
+.card > span > h4:first-child .fa-star {
+  padding: 0 5px 3px 0;
+  font-size: small;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-logo {
+  width: 100%;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
